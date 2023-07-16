@@ -197,6 +197,16 @@ html {
   text-decoration-line: underline;
 }
 
+.specials-section .specials-title {
+  margin-top: 8rem;
+  color: #140a32;
+  font-family: "Open Sans";
+  font-size: 3.2rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+}
+
 .specials-card-wrapper {
   display: grid;
   grid-template-columns: repeat(2, minmax(30rem, 1fr));
@@ -305,6 +315,162 @@ html {
   width: 100%;
   margin-top: 3rem;
   gap: 10px;
+}
+
+.portal {
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left-cards .title {
+  color: #140a32;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
+  margin-bottom: 3rem;
+}
+
+.consultants-card {
+  padding: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+.cons-text {
+  margin-left: 2rem;
+}
+.cons-text h2 {
+  color: #140a32;
+  font-family: " Open Sans";
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.cons-text h4 {
+  margin-block: 0.5rem 1.5rem;
+  color: #140a32;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.cons-text p {
+  color: rgba(47, 43, 67, 0.5);
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  background-color: #33836e;
+  margin-left: 2rem;
+  border-radius: 2rem;
+}
+.contact-form p {
+  margin-bottom: 3rem;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.contact-form textarea {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.6rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+.contact-form input {
+  padding: 1.6rem 0.7rem;
+  border-radius: 1rem;
+  border: none;
+  margin-left: 1.5rem;
+}
+.contact-form button {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  background-color: #140a32;
+  padding: 1.6rem 1.2rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.contact-form p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: " Open Sans";
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-form input:first-child {
+  margin-left: 0;
+  padding: 0;
+}
+
+.contact-form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-form-header h2 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.online {
+  padding: 1.2rem 1.6rem;
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.green {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.online-consults p {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: inline-block;
+  margin-left: 4rem;
+}
+.online-consults span {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  margin-top: 1rem;
+  display: block;
+}
+
+.online-consults p:first-child {
+  margin-left: 0;
 }
 
 a {
