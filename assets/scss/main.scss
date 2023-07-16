@@ -1,22 +1,162 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-$primary-green:#016f52;
-$primary-blue:#1a77a3;
-$primary-blue2:#1a77a3;
-$primary-grey:#e5e5e5;
-$primary-light-green:#81d2bc;
-$primary-light-blue:#d7e8ef;
-$black : #000;
-$white : #fff;
+$primary-green: #33836e;
+$primary-blue: #1a77a3;
+$primary-blue2: #1a77a3;
+$primary-grey: rgba(47, 43, 67, 0.04);
+$medium-grey: rgba(47, 43, 67, 0.5);
+$primary-light-green: #81d2bc;
+$primary-light-blue: #d7e8ef;
+$black: #000;
+$white: #fff;
 
-html{
-    font-size: 10px;
+html {
+  font-size: 10px;
 }
 
-.container{
-    max-width: 144rem;
-    margin-inline: auto;
+.container {
+  max-width: 144rem;
+  margin-inline: auto;
+  padding-inline: 15rem;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  outline: none;
+  border: 0;
+}
+.header {
+  width: 100%;
+  padding-top: 4rem;
+}
+.header-primary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-form {
+  display: flex;
+  position: relative;
+  width: 42rem;
+  input {
+    width: 100%;
+    padding: 1.4rem 2rem;
+    background-color: $primary-grey;
+    font-size: 1.6rem;
+    border: 0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    outline: none;
+  }
+  input::placeholder {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgba(47, 43, 67, 0.4);
+  }
+  img {
+    position: absolute;
+    right: 2rem;
+    top: 1.4rem;
+  }
+}
+.header-quiz-btn {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: $primary-green;
+  color: $white;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.header-contact {
+  display: flex;
+  flex-direction: column;
+
+  .header-contact-number {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.7rem;
+  }
+  .header-contact-info {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: $medium-grey;
+  }
+}
+.header-secondary {
+  margin-top: 3.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-connection-btns {
+  display: flex;
+  gap: 1.5rem;
+  .btn {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: transparent;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    span {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}
+.header-nav {
+  .header-nav-list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+  }
+  .header-nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.header-login {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.header-sublink {
+    display: block;
+    margin-top: 5rem;
+  a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(47, 43, 67, 0.50);
+  
+  }
 }
