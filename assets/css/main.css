@@ -1367,4 +1367,25 @@ a {
     top: 2rem;
     right: 2rem;
   }
+}
+.specs-title {
+  margin-top: 8re;
+  margin-bottom: 2rem;
+  color: var(--base-black, #140A32);
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.footer-title {
+  margin-top: 8rem;
+  margin-bottom: 2px;
+  color: #140a32;
+  font-family: " Open Sans";
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.96px;
 }/*# sourceMappingURL=main.css.map */
