@@ -22,10 +22,17 @@
 html {
   font-size: 10px;
 }
-html h1, html h2, html h3, html h4 {
+html h1,
+html h2,
+html h3,
+html h4 {
   font-family: "Open sans", sans-serif;
   font-weight: bold;
   color: #140a32;
+}
+
+html {
+  font-size: 10px;
 }
 
 .container {
@@ -64,7 +71,7 @@ html h1, html h2, html h3, html h4 {
   padding: 3.5rem;
   border-radius: 50%;
   margin-right: 2rem;
-  background: #EBF2F0;
+  background: #ebf2f0;
 }
 
 .card-text {
@@ -113,7 +120,7 @@ html h1, html h2, html h3, html h4 {
 }
 .stats-item span {
   display: block;
-  color: #016f52;
+  color: #33836e;
   font-size: 28px;
   font-weight: 700;
   letter-spacing: -0.84px;
@@ -130,7 +137,7 @@ html h1, html h2, html h3, html h4 {
 .contact-wrapper {
   display: flex;
   align-items: center;
-  background-color: #33836E;
+  background-color: #33836e;
   justify-content: space-between;
   padding: 3rem 5.5rem;
   border-radius: 2rem;
@@ -169,7 +176,7 @@ html h1, html h2, html h3, html h4 {
   border-radius: 1rem;
   border: 1px solid #fff;
   color: #fff;
-  color: var(--base-white, #FFF);
+  color: var(--base-white, #fff);
   font-size: 1.6rem;
   cursor: pointer;
   margin-left: 1.5rem;
@@ -177,7 +184,6 @@ html h1, html h2, html h3, html h4 {
 }
 .order-call p {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Open Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -189,4 +195,166 @@ html h1, html h2, html h3, html h4 {
   font-size: 1.2rem;
   font-weight: 600;
   text-decoration-line: underline;
+}
+
+.specials-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.specials-card {
+  border-radius: 20px;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  outline: none;
+  border: 0;
+}
+
+.header {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.header-primary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-form {
+  display: flex;
+  position: relative;
+  width: 42rem;
+}
+.header-form input {
+  width: 100%;
+  padding: 1.4rem 2rem;
+  background-color: rgba(47, 43, 67, 0.04);
+  font-size: 1.6rem;
+  border: 0;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  outline: none;
+}
+.header-form input::-moz-placeholder {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.4);
+}
+.header-form input::placeholder {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.4);
+}
+.header-form img {
+  position: absolute;
+  right: 2rem;
+  top: 1.4rem;
+}
+
+.header-quiz-btn {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #33836e;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.header-contact {
+  display: flex;
+  flex-direction: column;
+}
+.header-contact .header-contact-number {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.7rem;
+}
+.header-contact .header-contact-info {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.9rem;
+  color: rgba(47, 43, 67, 0.5);
+}
+
+.header-secondary {
+  margin-top: 3.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-connection-btns {
+  display: flex;
+  gap: 1.5rem;
+}
+.header-connection-btns .btn {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: transparent;
+  border: 1px solid rgba(47, 43, 67, 0.15);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.header-connection-btns .btn span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-nav .header-nav-list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+.header-nav .header-nav-link {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.header-sublink {
+  display: block;
+  margin-top: 5rem;
+}
+.header-sublink a {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(47, 43, 67, 0.5);
 }/*# sourceMappingURL=main.css.map */

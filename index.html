@@ -4,18 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>100 Юристов</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-top">
-            <a href="#">
+    <header class="container header">
+        <div class="header-primary">
+            <a href="#" class="logo">
                 <img src="assets/images/logo.svg" alt="logo image">
             </a>
             <form method="get" class="header-form" id="header-form">
-                <input type="text">
+                <input type="text" placeholder="Я хочу найти..." >
+                <img src="assets/images/searchIcon.svg" alt="search icon">
             </form>
+            <button class="btn header-quiz-btn">
+                <img src="assets/images/quiz.svg" alt="question icon">
+                <span>Задать вопрос</span>
+            </button>
+            <div class="header-contact">
+                <span class="header-contact-number">8 800 302-92-70</span>
+                <span class="header-contact-info">Бесплатный звонок юристу 24/7</span>
+            </div>
         </div>
+        <div class="header-secondary">
+            <div class="header-connection-btns">
+                <button class="btn header-connection-call">
+                    <img src="assets/images/phone.svg" alt="phone icon">
+                    <span>Заказать звонок</span>
+                </button>
+                <button class="btn header-connection-telegram">
+                    <img src="assets/images/telegram.svg" alt="telegram icon">
+                    <span>Telegram</span>
+                </button>
+                
+            </div>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li><a class="header-nav-link" href="">Отзывы</a></li>
+                    <li><a class="header-nav-link" href="">Вопросы</a></li>
+                    <li><a class="header-nav-link" href="">Наши юристы</a></li>
+                    <li><a class="header-nav-link" href="">Статьи</a></li>
+                    <li><a class="header-nav-link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-login">
+                <img src="assets/images/user.svg" alt="user img">
+                <span>Вход / Регистрация</span>
+            </div>
+
+        </div>
+        <span class="header-sublink"> <a href="#">Главная</a> / <a href="#">Горячая линия</a></span>
     </header>
     <main>
 
@@ -169,6 +206,8 @@
 
         </section>
     </main>
+
+    <main></main>
     <footer></footer>
 </body>
 </html>
