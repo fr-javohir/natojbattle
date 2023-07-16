@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$primary-green:#016f52;
+$primary-blue:#1a77a3;
+$primary-blue2:#1a77a3;
+$primary-grey:#e5e5e5;
+$primary-light-green:#81d2bc;
+$primary-light-blue:#d7e8ef;
+$black : #000;
+$white : #fff;
+
+html{
+    font-size: 10px;
+}
+
+.container{
+    max-width: 144rem;
+    margin-inline: auto;
+}
