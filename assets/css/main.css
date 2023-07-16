@@ -297,6 +297,157 @@ a {
   line-height: 160%; /* 25.6px */
 }
 
+.consulting {
+  margin-top: 8rem;
+}
+
+.consult-title {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.consult-description {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.consult-connect-list {
+  margin-top: 3rem;
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+}
+
+.consult-connect-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 2rem;
+  border: 1px solid var(--gray-borders, rgba(47, 43, 67, 0.15));
+}
+.consult-connect-item p {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.consult-connect-item h3 {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.consult-connect-item a {
+  display: block;
+  margin-top: auto;
+  color: #33836e;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.call {
+  margin-top: 8rem;
+}
+
+.call-control {
+  background: url("../images/Ellipse 14.png"), #33836e;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.call-box {
+  margin-right: 10rem;
+  display: grid;
+  gap: 1rem;
+}
+.call-box .call-info {
+  color: #fff;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.call-box .call-number {
+  color: #fff;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.26px;
+}
+
+.online-status p {
+  display: block;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.onlie-people {
+  display: flex;
+}
+.onlie-people .i2 {
+  position: relative;
+  left: -3rem;
+}
+.onlie-people .i3 {
+  position: relative;
+  left: -6rem;
+}
+.onlie-people .i4 {
+  position: relative;
+  left: -9rem;
+}
+.onlie-people .i5 {
+  position: relative;
+  left: -12rem;
+}
+.onlie-people .i6 {
+  position: relative;
+  left: -15rem;
+}
+.onlie-people .num {
+  position: relative;
+  left: -18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 1.6rem;
+  color: rgba(47, 43, 67, 0.5);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 .help {
   margin-top: 8rem;
 }
@@ -557,7 +708,7 @@ a {
   border-radius: 1rem;
   border: none;
   color: #33836e;
-  background: #E0ECE9;
+  background: #e0ece9;
   width: 100%;
   margin-top: 3rem;
   gap: 10px;
@@ -712,4 +863,64 @@ a {
   font-style: normal;
   font-weight: 400;
   color: rgba(47, 43, 67, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .hidden {
+    display: block;
+  }
+  .container {
+    padding-inline: 1.5rem;
+  }
+  .header {
+    padding-top: 1.5rem;
+  }
+  .header-secondary {
+    all: unset;
+  }
+  .menu {
+    background-color: transparent;
+  }
+  .logo {
+    margin-left: 6rem;
+    margin-right: 3.5rem;
+  }
+  .logo img {
+    width: 18rem;
+  }
+  .header-form {
+    position: static;
+  }
+  .header-form input {
+    display: none;
+  }
+  .header-form img {
+    right: 6rem;
+    top: 2rem;
+  }
+  .header-quiz-btn {
+    display: none;
+  }
+  .header-contact {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-connection-btns {
+    display: none;
+  }
+  .header-login span {
+    display: none;
+  }
+  .header-login img {
+    display: block;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */
