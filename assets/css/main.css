@@ -473,6 +473,30 @@ html {
   margin-left: 0;
 }
 
+.footer-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25rem, 1fr));
+}
+.footer-cards ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+.footer-cards ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.footer-cards ul li a {
+  text-decoration: none;
+  color: #140a32;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.footer-cards ul li a:hover {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: none;
 }
